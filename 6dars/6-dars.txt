@@ -1,0 +1,80 @@
+ 6-dars savollarga javob.
+
+1. Supervised ML nima va  qanday turlarga bo’linadi?
+->Supervised Ml -Nzaoratli mashinaviy o'qitish bu malumotlar toplamidan o'rganidan mashinaviy organish
+ turi bolib bunda kiritilgan malumotlar va unga mos togri natijalar(input va output qiymat)ni oz ichiga oladi.
+
+ 2 turga bolinadi:
+ 1-Classification (tasniflash)-> toifani yoki sinfni bashorat qilad.
+Bu savolga "ha" yoki "yoʻq" yoki biror guruhga tegishli boʻlishini aytishdir.
+Maslan email spammi yoqmi? (Ha/Yuq)
+Rasmda it bormi yoki mushuk? (guruhga ajratish)
+
+ 2. Regressiya (Raqamni, qiymatni bashorat qilish) Bu savolga aniq bir raqamni javob qilib berishdir.
+maslan uyni kattaligiga qarab uni narxini aniqlash
+ob-havoga qarab ertaga harorat necha gradus bolishini aniqlash
+
+-Classification –> Qaysi kategoriya? savoliga javob beradi.
+-Regression –> Qancha? savoliga javob beradi.]
+
+------------------------------------------------------------------------------------
+2.Data qanday bolishi kerak?
+-> ML yoki malumotlar tahlili uchun sifatli data quyidagi xususiyatlarga ega bolishi kk:
+-Structured
+-Toliq
+-Toza
+-Soxaga aloqador
+-Kattaroq
+-IShonchli
+------------------------------------------------------------------------------------
+ 3. Data Preprocessing nima?
+--> Data preprocessing (malumotlarni oldindan qayta ishlash)-bu xom tartibsiz malumotlarni MLga mos keladigan toza va
+tartibli formatga aylantirish jarayoni.
+
+-Missing values (bo‘sh qiymatlar) bilan ishlash.
+-Categorical data (matnli qiymatlarni raqamga o‘tkazish).
+-Feature scaling (o‘lchovlarni bir xil diapazonga keltirish).
+-Outliers (g‘alati, juda katta yoki kichik qiymatlar) ni tekshirish va kerak bo‘lsa olib tashlash.
+-Splitting data (train/test)
+
+---------------------------------------------------------------------------------------
+4.Mean va Mode farqi nima?
+-Mean (o'rtacha arifmetik) bu malumotlar toplamidagi barcha qiymatlarni qoshib ularning umumiy soniga bolish orqali 
+topiladigan o'rtacha qiymat. Bu faqat numerical qiymatda ishlatiladi.
+
+Mode (eng kop takrorlangan qiymat) bu numerical ham categorical turdagi malumotlar bn ishlatish m-n.
+----------------------------------------------------------------------------------------
+
+5.Regression va Classfication nima va ularga idea?
+
+ 1-Classification (tasniflash)-> toifani yoki sinfni bashorat qilad.
+Bu savolga "ha" yoki "yoʻq" yoki biror guruhga tegishli boʻlishini aytishdir.
+Maslan email spammi yoqmi? (Ha/Yuq)
+Rasmda it bormi yoki mushuk? (guruhga ajratish)
+
+ 2. Regressiya (Raqamni, qiymatni bashorat qilish) Bu savolga aniq bir raqamni javob qilib berishdir.
+maslan uyni kattaligiga qarab uni narxini aniqlash
+ob-havoga qarab ertaga harorat necha gradus bolishini aniqlash
+
+-Classification –> Qaysi kategoriya? savoliga javob beradi.
+-Regression –> Qancha? savoliga javob beradi.]
+
+----------------------------------------------------------------------------------------------
+6.Tushirib qoldirilgan qiymatlarni toldirish usullari va ular qanday sihalaydi?
+
+-Mean (oʻrta arifmetik) bilan toʻldirish
+-Mode (eng koʻp takrorlangan qiymat) bilan toʻldirish
+-Median (oʻrta qiymat) bilan toʻldirish
+-fixed qiymat bn (boshqa ustunlardagi maʼlumotlar asosida yetishmayotgan qiymatni bashorat qilish)
+-Delete qilish (Agar yetishmayotgan maʼlumotlar butun maʼlumotlar toʻplamining
+ juda kichik qismini (masalan 1-2%) tashkil etsa.
+
+--------------------------------------------------------------------------------------------
+7.ML va AI da eng muxim element?
+-Data.
+
+----------------------------------------------------------------------------------------------
+8.Median qamday ishlaydi?
+-datani to'ldirishda -> eng o'rtadagi qiymatni olish.
+
+----------------------------------------------------------------------------------------
